@@ -1,4 +1,4 @@
-import { PokemonTypes } from "../components/atoms";
+import { PokemonTypes } from "../../components/atoms";
 
 export type PokemonListResponse = {
   count: number;

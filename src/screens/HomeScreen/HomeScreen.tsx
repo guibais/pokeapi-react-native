@@ -1,4 +1,4 @@
-import { HomeTemplate } from "../../components/templates";
+import { HomeTemplate } from "~/components/templates";
 import { HomeScreenProps, useLogic } from "./useLogic";
 import { useTranslation } from "react-i18next";
 

@@ -1,10 +1,10 @@
-import { useQuery, UseQueryOptions } from "../utils/ReactQueryHelper";
+import { useQuery, UseQueryOptions } from "~/utils/ReactQueryHelper";
 import {
   getPokemonSpecies,
   POKEMON_LIST_KEY,
   POKEMON_SPECIES_KEY,
-} from "../services/endpoints";
-import { PokemonSpeciesResponse } from "../services/types";
+} from "~/services/endpoints";
+import { PokemonSpeciesResponse } from "~/services/types";
 
 type UsePokemonSpeciesParams = UseQueryOptions<
   PokemonSpeciesResponse,

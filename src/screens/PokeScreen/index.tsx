@@ -1,6 +1,6 @@
-import Display from "../../assets/images/display.png";
+import Display from "~/assets/images/display.png";
 import { PokeScreenProps, useLogic } from "./useLogic";
-import { PokemonDetailsTemplate } from "../../components/templates";
+import { PokemonDetailsTemplate } from "~/components/templates";
 import React from "react";
 import { useTranslation } from "react-i18next";
 export const PokeScreen = ({ ...props }: PokeScreenProps) => {

@@ -1,14 +1,6 @@
-import { useQuery, UseQueryOptions } from "../utils/ReactQueryHelper";
-import {
-  getPokemonDetails,
-  getPokemonList,
-  POKEMON_LIST_KEY,
-} from "../services/endpoints";
-import {
-  Pagination,
-  PokemonDetailsResponse,
-  PokemonListResponse,
-} from "../services/types";
+import { useQuery, UseQueryOptions } from "~/utils/ReactQueryHelper";
+import { getPokemonDetails, POKEMON_LIST_KEY } from "~/services/endpoints";
+import { PokemonDetailsResponse } from "~/services/types";
 
 type UsePokemonDetailsParams = UseQueryOptions<
   PokemonDetailsResponse,

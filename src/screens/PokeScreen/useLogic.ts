@@ -1,11 +1,11 @@
 import { RouteProp } from "@react-navigation/native";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import React from "react";
-import { IHighlighted } from "../../components/atoms/Highlighted";
-import { usePokemonDetails } from "../../hooks/usePokemonDetails";
-import { usePokemonSpecies } from "../../hooks/usePokemonSpecies";
-import { useFavoriteFilter } from "../../store/useFavoriteFilter";
-import { RootStackParamList } from "../../types";
+import { IHighlighted } from "~/components/atoms/Highlighted";
+import { usePokemonDetails } from "~/hooks/usePokemonDetails";
+import { usePokemonSpecies } from "~/hooks/usePokemonSpecies";
+import { useFavoriteFilter } from "~/store/useFavoriteFilter";
+import { RootStackParamList } from "~/types";
 
 export type PokeScreenProps = NativeStackScreenProps<RootStackParamList>;
 

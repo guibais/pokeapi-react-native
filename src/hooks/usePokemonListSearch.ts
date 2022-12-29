@@ -1,6 +1,6 @@
-import { useQuery, UseQueryOptions } from "../utils/ReactQueryHelper";
-import { getPokemonList, POKEMON_LIST_SEARCH_KEY } from "../services/endpoints";
-import { PokemonListResponse } from "../services/types";
+import { useQuery, UseQueryOptions } from "~/utils/ReactQueryHelper";
+import { getPokemonList, POKEMON_LIST_SEARCH_KEY } from "~/services/endpoints";
+import { PokemonListResponse } from "~/services/types";
 
 type UsePokemonListParams = UseQueryOptions<PokemonListResponse, Error> & {
   name: string;

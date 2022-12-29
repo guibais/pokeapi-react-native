@@ -1,6 +1,6 @@
-import { useQuery, UseQueryOptions } from "../utils/ReactQueryHelper";
-import { getPokemonList, POKEMON_LIST_KEY } from "../services/endpoints";
-import { Pagination, PokemonListResponse } from "../services/types";
+import { useQuery, UseQueryOptions } from "~/utils/ReactQueryHelper";
+import { getPokemonList, POKEMON_LIST_KEY } from "~/services/endpoints";
+import { Pagination, PokemonListResponse } from "~/services/types";
 
 type UsePokemonListParams = UseQueryOptions<PokemonListResponse, Error> & {
   filters: Pagination;

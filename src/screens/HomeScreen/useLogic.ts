@@ -1,11 +1,11 @@
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import React from "react";
-import { ListingItemType } from "../../components/molecules";
-import { usePokemonListSearch } from "../../hooks/usePokemonListSearch";
-import { usePokemonList } from "../../services";
-import { PokemonListResult } from "../../services/types";
-import { useFavoriteFilter } from "../../store/useFavoriteFilter";
-import { RootStackParamList } from "../../types";
+import { ListingItemType } from "~/components/molecules";
+import { usePokemonListSearch } from "~/hooks/usePokemonListSearch";
+import { usePokemonList } from "~/services";
+import { PokemonListResult } from "~/services/types";
+import { useFavoriteFilter } from "~/store/useFavoriteFilter";
+import { RootStackParamList } from "~/types";
 
 export type HomeScreenProps = NativeStackScreenProps<RootStackParamList>;
 

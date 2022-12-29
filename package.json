@@ -57,6 +57,7 @@
     "@types/react": "~18.0.24",
     "@types/react-native": "~0.70.6",
     "@types/styled-components": "^5.1.26",
+    "babel-plugin-root-import": "^6.6.0",
     "jest": "^29.3.1",
     "jest-dom": "^4.0.0",
     "jest-expo": "~47.0.1",

@@ -10,5 +10,8 @@
     "abilities": "Abilities",
     "moves": "Moves",
     "species": "Species"
+  },
+  "error": {
+    "generic": "Ops! We are having some problems. Please try again later."
   }
 }

@@ -1,17 +1,7 @@
 import create from "zustand";
 import { devtools, persist } from "zustand/middleware";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-
-type Favorite = {
-  name: string;
-  id: string;
-};
-
-type FavoriteFilterType = {
-  favorites: Favorite[];
-  setFavorite: (favorite: Favorite) => void;
-  removeFavorite: (id: string) => void;
-};
+import { Favorite, FavoriteFilterType } from "./types";
 
 export const useFavoriteFilter = create(
   devtools(

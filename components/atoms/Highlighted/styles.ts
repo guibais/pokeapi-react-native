@@ -30,6 +30,6 @@ export const HighlightedText = styled("Text", {
 
 export const HighlightedNumber = styled("Text", {
   textAlign: "center",
-  fontSize: 18,
+  fontSize: 16,
   fontWeight: "bold",
 });

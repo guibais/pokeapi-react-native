@@ -1,0 +1,14 @@
+{
+  "homeScreen": {
+    "headerTitle": "Pokedex",
+    "showOnlyCaptured": "Show Only Captured",
+    "typeToSearch": "Type to search...",
+    "basicTitle": "PokeApp"
+  },
+  "pokeScreen": {
+    "headerTitle": "Pokemon",
+    "abilities": "Abilities",
+    "moves": "Moves",
+    "species": "Species"
+  }
+}
